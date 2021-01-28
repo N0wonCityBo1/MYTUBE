@@ -1,0 +1,1 @@
+function popup() { window.open("help/help.pdf", "팝업창", "width=400, height=300, left=100, top=50"); }

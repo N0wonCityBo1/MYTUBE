@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/app.js"></script>
+    <link rel="stylesheet"  type="text/css" href="css/style.css">
+    <title>MYTUBE</title>
+</head>
+<body>
+    <h2>MYTUBE</h2>
+
+<form action="/loading" method="GET">
+<input name="url" type ="url" placeholder="URL을 입력해 주세요!"/> 
+<br>
+<select name="ver">
+    <option value="">확장자선택</option>
+    <option value="mp3">mp3</option>
+    <option value="mp4">mp4</option>
+</select>
+<br>
+<button type="submit" >다운로드
+</form>
+<button   value="팝업창 호출" onclick="popup();"> 도움말
+</body>
+</html>
